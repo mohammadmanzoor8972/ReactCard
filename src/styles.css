@@ -25,8 +25,9 @@
   display: flex;
   justify-content: space-between;
 }
-.item .header .right-content {
+.item > .header > .right-content {
   text-align: left;
+  font-size: 0.8rem;
 }
 .item .content {
   text-align: justify;
@@ -35,9 +36,26 @@
   margin: 5px 0px 5px 0px;
 }
 
-.item .footer {
+.item .footer,
+.footer a {
   display: flex;
   justify-content: space-between;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.item .footer img {
+  width: 25px;
+  padding-left: 0px;
+}
+
+.item .footer > .image img {
+  width: 30px;
+}
+
+.item .footer > .bookmark {
+  display: flex;
+  align-items: center;
 }
 
 .sims-p-none {
@@ -50,9 +68,9 @@
 }
 
 .content-font2x {
-  font-size: 0.7rem;
+  font-size: 1.1rem;
 }
 
 .content-font3x {
-  font-size: 0.8rem;
+  font-size: 0.85rem;
 }
