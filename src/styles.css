@@ -9,11 +9,11 @@
 }
 
 .item {
-  width: 350px;
-  height: 170px;
-  border: 2px solid grey;
+  width: 300px;
+  height: 150px;
+  border: 2px solid #b4b4b4;
   box-sizing: border-box;
-  padding: 10px;
+  padding: 7px;
   margin: 10px;
   display: flex;
   flex-direction: column;
@@ -47,6 +47,7 @@
 .item .footer img {
   width: 25px;
   padding-left: 0px;
+  margin-left: -6px;
 }
 
 .item .footer > .image img {
